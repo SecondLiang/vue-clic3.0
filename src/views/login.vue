@@ -1,4 +1,6 @@
-<template></template>
+<template>
+  <div class="g-container">hello world!</div>
+</template>
 <script>
 import { login } from "@/util/api.config.js";
 export default {

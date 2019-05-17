@@ -195,7 +195,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: .133333rem;
   padding-bottom: .133333rem;
 }
-
+.g-container{
+  width:100vw;
+  height:100vh;
+}
  
 
 
