@@ -1,8 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
+import axios from 'axios'
 import router from '@/router'
 import store from '@/store'
 import 'lib-flexible/flexible.js'
+import { post, fetch } from "@/config/axios";
+Vue.prototype.$get = fetch;
+Vue.prototype.$post = post;
 
 Vue.config.productionTip = false
 
