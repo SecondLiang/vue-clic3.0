@@ -5,6 +5,7 @@ import router from '@/router'
 import store from '@/store'
 import 'lib-flexible/flexible.js'
 import { post, fetch } from "@/config/axios";
+import '@/assets/css/reset.css'
 Vue.prototype.$get = fetch;
 Vue.prototype.$post = post;
 
